@@ -1,0 +1,377 @@
+* {
+    box-sizing: border-box;
+}
+
+.icon1 {
+    position: absolute;
+    width: 30px;
+    left: 37px;
+    top: 27px;
+    display: flex;
+}
+
+.header {
+    width: 90%;
+    max-width: 1146px; /* Максимальная ширина */
+    margin: auto; /* Держит всегда шапку в середине */ 
+    padding: 56px 0px; /* Сверху и снизу 56px, а по краям 0px */
+    display: flex; /* Что бы картинка встала напротив логотипа */
+    justify-content: space-between; /* Элементы разлетятся по краям */
+    align-items: center; /* Аватар выравнивается по центру, относительно логотипа */
+}
+
+.company-name {
+    position: absolute;
+    width: 152px;
+    height: 28px;
+    left: 79px;
+    top: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+    color: #000;
+}
+
+.button-glaw {
+    position: absolute; 
+    padding: -10px 26px;
+    margin-left: 0%;
+    vertical-align: center;
+    width: 100px;
+    height: 30px;
+    left: 336px;
+    top: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:azure;
+    cursor: pointer;
+    background-color: #babd19;
+    margin-right: 30px;
+}
+
+
+.button-nas {
+    position: absolute; 
+    padding: -10px 26px;
+    margin-left: 15%;
+    vertical-align: center;
+    width: 100px;
+    height: 30px;
+    left: 336px;
+    top: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:azure;
+    background-color: #babd19;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.button-tovary {
+    position: absolute; 
+    padding: -10px 26px;
+    margin-left: 30%;
+    vertical-align: center;
+    width: 100px;
+    height: 30px;
+    left: 336px;
+    top: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:azure;
+    background-color: #babd19;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.button-contacty {
+    position: absolute; 
+    padding: -10px 26px;
+    margin-left: 45%;
+    vertical-align: center;
+    width: 100px;
+    height: 30px;
+    left: 336px;
+    top: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:azure;
+    background-color: #babd19;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.button-zvon {
+    position: absolute; 
+    vertical-align: center;
+    width: 182px;
+    height: 40px;
+    left: 1140px;
+    top: 20px;
+    line-height: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:azure;
+    background-color: #ff5202;
+    margin-right: 40px;
+    cursor: pointer;
+    border-radius: 35px;
+}
+
+.button-zvonok {
+    position: absolute;
+    width: 290px;
+    height: 59.36px;
+    left: 565px;
+    top: 300px;
+    border-radius: 35px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+}
+
+.img-auto {
+    position: absolute;
+    width: 1290px;
+    left: 30px;
+    top: 102px;
+
+    background: linear-gradient(0deg, rgba(153, 101, 193, 0.71), rgba(153, 101, 193, 0.71)), url(Машина на авто.jpg);
+}
+
+.Zag {
+    position: absolute;
+    width: 615px;
+    height: 30px;
+    left: 400px;
+    top: 210px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.text {
+    position: absolute;
+    width: 615px;
+    height: 37px;
+    left: 405px;
+    top: 253px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 30px;
+/* or 104% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.button-zvonok {
+    position: absolute;
+    width: 290px;
+    height: 59.36px;
+    left: 565px;
+    top: 300px;
+    border-radius: 35px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+}
+
+.Prey {
+    Position: absolute;
+    width: 615px;
+    height: 40px;
+    left: 410px;
+    top: 570px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    opacity: 0.9;
+}
+
+.img-dostavka {
+    position: absolute;
+    width: 55px;
+    height: 50px;
+    left: 200px;
+    top: 645px;
+
+    background: url("Иконка преимуществ(Доставка).png");
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.img-prey {
+    position: absolute;
+    width: 55px;
+    left: 500px;
+    top: 640px;
+}
+
+.img-tov {
+    position: absolute;
+    width: 55px;
+    height: 50px;
+    left: 800px;
+    top: 645px;
+
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.img-vigoda {
+    position: absolute;
+    width: 55px;
+    height: 51px;
+    left: 1100px;
+    top: 645px;
+}
+
+.text-icon1 {
+    position: absolute;
+    width: 200px;
+    height: 37px;
+    left: 120px;
+    top: 700px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.text-icon2 {
+    position: absolute;
+    width: 440px;
+    height: 19px;
+    left: 309px;
+    top: 700px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.text-icon3 {
+    position: absolute;
+    width: 163px;
+    height: 19px;
+    left: 745px;
+    top: 700px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.text-icon4 {
+    position: absolute;
+    width: 163px;
+    height: 19px;
+    left: 1050px;
+    top: 700px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.background {
+    position: absolute;
+    width: 1290px;
+    height: 339px;
+    left: 35px;
+    top: 800px;
+
+    background: #EDEDED;
+}
+
+.text2 {
+    position: absolute;
+    width: 615px;
+    height: 39px;
+    left: 28%;
+    top: 850px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+.background2 {
+    position: absolute;
+    width: 1050px;
+    height: 117px;
+    left: 0px;
+    top: 1200px;
+
+    background: #FFFFFF;
+}
